@@ -34,7 +34,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001929735324"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6195725562"))
+OWNER_ID = int(getenv("OWNER_ID", "6864577500"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -51,8 +51,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TitanNetwrk")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TitanXSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_L3G3ND_ll")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ll_L3G3ND_ll")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -95,7 +95,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/4565ffe46f5043f95e2a2.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/a81c594c98208bae1ad3f.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/dec61e858d57c14343455.jpg"
